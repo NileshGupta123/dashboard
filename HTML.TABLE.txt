@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+</style>
+</head>
+<body>
+
+<h2>Table With Rounded Borders</h2>
+
+<p>Use the CSS border-radius property to add rounded corners to the borders.</p>
+
+<table style="width:100%">
+  <tr>
+    <th>STATION</th>
+    <th>Tempertaure</th> 
+    <th>Humidity</th>
+    <th>Weather</th>
+  </tr>
+  <tr>
+    <td>USA</td>
+    <td>24</td>
+    <td>60%</td>
+    <td>cloudy</td>
+  </tr>
+  <tr>
+    <td>GERMANY</td>
+    <td>5</td>
+    <td>70%</td>
+    <td>rainy</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
